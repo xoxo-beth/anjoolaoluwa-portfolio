@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Anjoolaoluwa | Mobile App Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,15 +19,18 @@
 
     <header>
         <nav>
-            <button id="theme-toggle">Dark Mode</button>
-            <h2>Anjoolaoluwa</h2>
 
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <h2>Anjoolaoluwa</h2>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <button id="theme-toggle">Dark Mode</button>
+            </div>
         </nav>
     </header>
 
@@ -31,26 +39,38 @@
         <section id="hero">
             <h1>Hi, I'm Anjoolaoluwa.</h1>
 
-            <h2>I'm a Mobile App Developer.</h2>
+            <h2>I'm a Computer Science student & Mobile App Developer.</h2>
 
             <p>
-                I'm a Computer Science student passionate about
-                building useful didgital products with Flutter and Dart.
+                I build mobile applications with Flutter and Dart, with a particular interest in fintech and digital
+                products. I also enjoy product thinking and system analysis.
             </p>
 
-            <a href="#projects">View My Work</a>
+            <div class="portfolio">
+                <a href="#projects">View My Work</a>
+                <a href="#contact">Let's connect</a>
+            </div>
         </section>
 
         <section id="about">
             <h2>About Me</h2>
 
             <p>
-                I am a Computer Science student with an interest in
-                mobile application development. I enjoy turning ideas
-                into functional digital products and continuously
-                improving my skills through personal and collaborative
-                projects.
+                I'm a 300-level Computer Science student and mobile app developer who enjoys turning ideas into useful
+                digital products. I'm particularly interested in fintech, but I also enjoy exploring different types of
+                projects and learning how technology can solve real problems.
             </p>
+
+            <p>
+                I enjoy product thinking and system analysis, especially understanding how different parts of a product
+                work together before building it.
+            </p>
+
+            <p>
+                When I'm not coding, I'm usually creating content, reading, hanging out with my friends, or watching a
+                good 2000s high-school drama series.
+            </p>
+
         </section>
 
         <section id="skills">
@@ -73,11 +93,16 @@
 
                 <article class="project-card">
                     <h3>PennyWise</h3>
-
                     <p>
-                        A personal expense tracking application built
-                        with Flutter and Dart.
+                        A student-focused expense tracking app designed to help users monitor spending, set budgets, and
+                        better understand their financial habits. I built the app with Flutter and Dart, developing the
+                        core screens and functionality while exploring features such as automated expense tracking and
+                        AI-powered financial guidance.
                     </p>
+                    <p><strong>Role:</strong> Main Contributor</p>
+                    <p><strong>Tech:</strong> Flutter · Dart</p>
+                    <a href="https://github.com/xoxo-beth/PennyWise" target="_blank">View PennyWise on GitHub</a>
+
                 </article>
 
                 <article class="project-card">
@@ -88,6 +113,7 @@
                         smartphonws
                         or reliable internet access.
                     </p>
+                    <p>Open Payment Platform . USSD</p>
                 </article>
 
                 <article class="project-card">
@@ -96,6 +122,9 @@
                     <p>
                         A school transportation concept designed to help
                         students interact with shuttle services digitally.
+                    </p>
+                    <p>
+                        System Analyst . Project Management
                     </p>
                 </article>
             </div>
@@ -120,13 +149,22 @@
                 I'm always interested in learning, building and
                 connecting with other people in tech.
             </p>
-            <a href="malito:your-email@example.com">
-                Email Me
-            </a>
+            <div class="contact-links">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shafaanjola@gmail.com" target="_blank">
+                    Email Me
+                </a>
+                <a href="https://github.com/xoxo-beth" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/anjoolaoluwashafa/" target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+            </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2026 Anjoolaoluwa. All rights reserved.</p>
+        <p>Built with HTML, CSS & JavaScript</p>
     </footer>
 
     <script src="script.js"></script>
